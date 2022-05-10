@@ -41,36 +41,66 @@ const employees = [
 
 console.log( employees );
 
+// let atticus = employees[0];
+// getEmployeeBonus(atticus);
+
 for(let employee of employees){
-  console.log(employee)
+  // employee = { name: 'Mayella', employeeNumber: 'asdfds', ...}
+  let bonusInfo = getEmployeeBonus(employee);
+  console.log(bonusInfo);
 }
+
+function getEmployeeBonus(object){
+  // console.log(object)
+  let newObject = {
+  name: object.name,
+  bonusPercentage: 
+ 
+  }
+  
+  return newObject;
+}
+
+
+
+// add(3, 5);
+
+// function add(n1, n2) {
+//   console.log(n1, n2)
+// }
+
+// for (employee of employees){
+
 
  
-function employee(object){
-  let employeeObject = {
-employeeName: 'EP',
-bonusPercentage: 'BP',
-totalCompensation: 'TC',
-totalBonus: 'TB'
 
-
-
-
+  function calculateBonus(){
+    let bonusPercentage = 0;
+    
+    
+    if(reviewRating <= 2){
+      console.log('no bonus')
   }
-} 
-
-if(reviewRating <= 2){
-  console.log('no bonus')
+    else if(reviewRating === 3){
+      bonusPercentage = 0.04
+  }
+    else if(reviewRating === 4){
+      bonusPercentage = 0.06
+  }
+    else if(reviewRating === 5){
+      bonusPercentage = 0.1
+  }  
+    
+  if(employeeNumber.length === 4){
+      bonusPercentage += 0.05
+    }
+  
+  if(annualSalary> 65,000){
+    bonusPercentage = 0.01
+  }
+  if (bonusPercentage > .13 || bonusPercentage < 0){
+    bonusPercentage = 0;
+  }
+  return bonusPercentage
 }
-else if(reviewRating === 3){
-  annualSalary *  0.04
-}
-else if(reviewRating === 4){
-  annualSalary * 0.06
-}
-else if(reviewRating === 5){
-  annualSalary * 0.1
-}
-
-if(employeeNumber === '    ')
-
+// }
