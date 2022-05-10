@@ -40,3 +40,37 @@ const employees = [
 // Ask questions when you don't.
 
 console.log( employees );
+
+for(let employee of employees){
+  console.log(employee)
+}
+
+ 
+function employee(object){
+  let employeeObject = {
+employeeName: 'EP',
+bonusPercentage: 'BP',
+totalCompensation: 'TC',
+totalBonus: 'TB'
+
+
+
+
+  }
+} 
+
+if(reviewRating <= 2){
+  console.log('no bonus')
+}
+else if(reviewRating === 3){
+  annualSalary *  0.04
+}
+else if(reviewRating === 4){
+  annualSalary * 0.06
+}
+else if(reviewRating === 5){
+  annualSalary * 0.1
+}
+
+if(employeeNumber === '    ')
+
